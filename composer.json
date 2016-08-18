@@ -1,5 +1,5 @@
 {
-  "name": "drupal/amazon",
+  "name": "acromedia/amazon-fork",
   "type": "drupal-module",
   "description": "Provides easy access to the Amazon Product Advertisement API.",
   "homepage": "https://www.drupal.org/project/amazon",
