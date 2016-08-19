@@ -85,7 +85,7 @@ class Amazon {
 
     // If not, use Drupal config variables. (Automatically handles overrides
     // in settings.php.)
-    $secret = \Drupal::config('amazon.configuration')->get('access_secret');
+    $secret = \Drupal::config('amazon.settings')->get('access_secret');
     if ($secret) {
       return $secret;
     }
@@ -108,7 +108,7 @@ class Amazon {
 
     // If not, use Drupal config variables. (Automatically handles overrides
     // in settings.php.)
-    $key = \Drupal::config('amazon.configuration')->get('access_key');
+    $key = \Drupal::config('amazon.settings')->get('access_key');
     if ($key) {
       return $key;
     }
